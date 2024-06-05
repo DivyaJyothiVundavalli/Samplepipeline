@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the specified repository
-                git url: 'https://github.com/DivyaJyothiVundavalli/StockWatch.git', branch: 'main'
+                git url: 'https://github.com/DivyaJyothiVundavalli/Samplepipeline.git', branch: 'main'
             }
         }
         stage('Confirm Checkout') {
